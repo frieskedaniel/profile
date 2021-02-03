@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,700&display=swap');
+/* font-family: 'Merriweather', serif; */
+
+body {
+    background-color: #d9d8d4;
+    font-family: 'Merriweather', serif;
+    font-weight: 200;
+    margin: 76px;
+    letter-spacing: 1px;
+}
+    
+h1, h2 {
+    background-color: rgba(246,246,246,0.9);
+    
+}
+
+.logo {
+    width: 240px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.card {
+    margin: 0 auto;
+    border: 2px;
+    background-color: rgba(246,246,246,1);
+    text-align: center;
+    padding: 20px;
+    width: 800px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.button {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #dde9b4a9;
+    color: #333333;
+    padding: 4px 10px 4px 10px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+}
+
+.button:hover {
+    background-color: #d3dabea9 ;
+}
